@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "futuralight";
+  src: url("fonts/futura/futura/futura-light-bt.ttf") format("truetype"),
+    url("fonts/futura/futura/futura medium bt.ttf") format("truetype"),
+    url("fonts/futura/futura/Futura Heavy font.ttf") format("truetype"),
+    url("fonts/futura/futura/Futura Book font.ttf") format("truetype"),
+    url("fonts/futura/futura/Futura Extra Black font.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: "futuralight" !important;
+}
+hr {
+  margin: 10px 0 !important;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-size: 20px;
+  margin: 40px 0;
+}
+.box img {
+  height: 30px;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 16px;
+  text-align: center;
+}
+.description h5 {
+  font-weight: bolder;
+}
+.description img {
+  height: 12px;
+}
+.description #article {
+  display: none;
+  margin-top: 10px;
+}
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.messageBox h3 {
+  font-size: 28px;
+  margin: 0;
+}
+.messageBox p {
+  font-size: 16px;
+}
+/* .description a img {
+  transform: rotate(180deg);
+  transition: ease all 0.2s;
+} */
+.formItem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap !important;
+}
+.email {
+  border: 1px solid lightgray;
+  border-radius: 0 !important;
+  height: 40px;
+  width: 380px;
+  padding: 12px;
+}
+.email:focus {
+  outline: none;
+}
+.send {
+  height: 40px;
+  width: 120px;
+  background: #000 !important;
+  color: #fff !important;
+  border: 1px solid #000 !important;
+  border-radius: 0 !important;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 200ms color ease-in;
+}
+.send:hover {
+  color: yellowgreen !important;
+}
+.contract {
+  display: flex;
+  justify-content: center;
+}
+.contractItem {
+  display: flex;
+  margin-top: 12px;
+  width: 500px;
+}
+
+.contractItem label {
+  font-size: 13px;
+}
+
+.verticalHr {
+  border-left: 6px solid green;
+
+  height: 100px !important;
+}
+
+/* Menu */
+.menu-caption {
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu-list ul {
+  list-style: none;
+  padding: 0 !important;
+}
+.menu-list ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 3px 0;
+  display: block;
+  transition: 200ms ease-in;
+}
+.menu-list ul li a:hover {
+  font-weight: bold;
+}
+/* Contact - App */
+.social-medias-list ul {
+  list-style: none;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-medias-list li a {
+  border: 1px solid #000;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding: 18px;
+  margin: 0 6px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-medias-list li a:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.social-medias-list li a img {
+  height: 20px;
+  width: 20px;
+}
+
+.app-list ul {
+  list-style: none;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+.app-list ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+}
+.phone img {
+  height: 60px;
+}
+
+/* Privacy */
+.privacy a {
+  text-decoration: none;
+  color: grey;
+}
+.privacy a:hover {
+  color: black;
+  font-weight: bolder;
+}
+.privacy a p {
+  margin: 0 !important;
+}
+/* Bank Logo */
+.bank-logos img {
+  margin-right: 10px;
+  height: 20px;
+}
